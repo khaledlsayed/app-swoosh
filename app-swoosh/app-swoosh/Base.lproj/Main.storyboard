@@ -12,7 +12,7 @@
         <!--Home Page-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" userLabel="Home Page" customClass="ViewController" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="Home Page" customClass="welcomeVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -79,19 +79,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="bgImg" destination="Mg0-dn-3Yo" id="B3h-WB-1fT"/>
-                        <outlet property="swoosh" destination="Mq9-r2-K6G" id="hRg-15-MCd"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1500" y="132.68365817091455"/>
         </scene>
-        <!--2nd Page-->
+        <!--LeagueVC-->
         <scene sceneID="VKR-3h-dGa">
             <objects>
-                <viewController id="bAT-Ne-qk7" userLabel="2nd Page" sceneMemberID="viewController">
+                <viewController id="bAT-Ne-qk7" customClass="LeagueVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="clN-BD-U9u">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -195,10 +191,10 @@
             </objects>
             <point key="canvasLocation" x="-504.80000000000001" y="132.68365817091455"/>
         </scene>
-        <!--View Controller-->
+        <!--SkillVC-->
         <scene sceneID="S3y-K8-RfG">
             <objects>
-                <viewController id="NTO-uj-eD0" sceneMemberID="viewController">
+                <viewController id="NTO-uj-eD0" customClass="skillVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n17-C3-ed5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
