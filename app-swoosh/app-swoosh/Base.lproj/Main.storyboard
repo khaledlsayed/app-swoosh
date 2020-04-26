@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home Page-->
+        <!--welcomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" userLabel="Home Page" customClass="welcomeVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="welcomeVC" customClass="welcomeVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -87,7 +87,7 @@
         <!--LeagueVC-->
         <scene sceneID="VKR-3h-dGa">
             <objects>
-                <viewController id="bAT-Ne-qk7" customClass="LeagueVC" sceneMemberID="viewController">
+                <viewController id="bAT-Ne-qk7" customClass="LeagueVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="clN-BD-U9u">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -152,6 +152,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="onNextTapped:" destination="bAT-Ne-qk7" eventType="touchUpInside" id="Pqn-g8-6yG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Scd-wL-zrW" userLabel="BackButton">
                                 <rect key="frame" x="16" y="26" width="29" height="24"/>
@@ -185,6 +188,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="DSg-Xy-SC3"/>
                     </view>
+                    <connections>
+                        <segue destination="NTO-uj-eD0" kind="show" identifier="skillVCSegue" id="MPd-Wd-ccX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z4r-Rq-aEL" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="aZa-vp-y6h" userLabel="Exit" sceneMemberID="exit"/>

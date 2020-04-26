@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E516A23D2455AD0B00CE5620 /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5465C78244D814100BEEE20 /* LeagueVC.swift */; };
 		E5465C7A244D815900BEEE20 /* skillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5465C79244D815900BEEE20 /* skillVC.swift */; };
 		E5FB6AF4244440EC006A4493 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FB6AF3244440EC006A4493 /* AppDelegate.swift */; };
 		E5FB6AF6244440EC006A4493 /* welcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FB6AF5244440EC006A4493 /* welcomeVC.swift */; };
@@ -175,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E516A23D2455AD0B00CE5620 /* LeagueVC.swift in Sources */,
 				E5465C7A244D815900BEEE20 /* skillVC.swift in Sources */,
 				E5FB6AF6244440EC006A4493 /* welcomeVC.swift in Sources */,
 				E5FB6AF4244440EC006A4493 /* AppDelegate.swift in Sources */,
